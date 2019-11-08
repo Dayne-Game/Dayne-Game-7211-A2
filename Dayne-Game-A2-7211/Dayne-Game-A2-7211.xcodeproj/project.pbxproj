@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9653D4D52374B2B50062C1FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4D42374B2B50062C1FF /* AppDelegate.swift */; };
+		9653D4D72374B2B50062C1FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4D62374B2B50062C1FF /* SceneDelegate.swift */; };
+		9653D4D92374B2B50062C1FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4D82374B2B50062C1FF /* ContentView.swift */; };
+		9653D4DB2374B2B80062C1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9653D4DA2374B2B80062C1FF /* Assets.xcassets */; };
+		9653D4DE2374B2B80062C1FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9653D4DD2374B2B80062C1FF /* Preview Assets.xcassets */; };
+		9653D4E12374B2B80062C1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9653D4DF2374B2B80062C1FF /* LaunchScreen.storyboard */; };
+		9653D4EC2374B2B80062C1FF /* Dayne_Game_A2_7211Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4EB2374B2B80062C1FF /* Dayne_Game_A2_7211Tests.swift */; };
+		9653D4F82374B31C0062C1FF /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4F72374B31C0062C1FF /* Repo.swift */; };
+		9653D4FC2374B3C50062C1FF /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4FB2374B3C50062C1FF /* PlaygroundView.swift */; };
+		9653D4FE2374B3E60062C1FF /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D4FD2374B3E60062C1FF /* Content.swift */; };
+		9653D5012374B47F0062C1FF /* GetAllRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5002374B47F0062C1FF /* GetAllRepo.swift */; };
+		9653D5032374B5AB0062C1FF /* GetRepoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5022374B5AB0062C1FF /* GetRepoContent.swift */; };
+		9653D5062374BA7D0062C1FF /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5052374BA7D0062C1FF /* Header.swift */; };
+		9653D5082374BADA0062C1FF /* SmallPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5072374BADA0062C1FF /* SmallPanel.swift */; };
+		9653D50A2374BAFE0062C1FF /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5092374BAFE0062C1FF /* ProgressCircle.swift */; };
+		9653D50C2374BB1F0062C1FF /* BigPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D50B2374BB1F0062C1FF /* BigPanel.swift */; };
+		9653D50E2374BB440062C1FF /* MainContentArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D50D2374BB440062C1FF /* MainContentArea.swift */; };
+		9653D5102374BB680062C1FF /* LessonAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D50F2374BB680062C1FF /* LessonAppView.swift */; };
+		9653D5122374BCD80062C1FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5112374BCD80062C1FF /* HomeView.swift */; };
+		9653D5142374BF140062C1FF /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5132374BF140062C1FF /* AboutView.swift */; };
+		9653D5162374CC920062C1FF /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653D5152374CC920062C1FF /* InstructionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9653D4E82374B2B80062C1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9653D4C92374B2B50062C1FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9653D4D02374B2B50062C1FF;
+			remoteInfo = "Dayne-Game-A2-7211";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9653D4D12374B2B50062C1FF /* Dayne-Game-A2-7211.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dayne-Game-A2-7211.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653D4D42374B2B50062C1FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9653D4D62374B2B50062C1FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9653D4D82374B2B50062C1FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9653D4DA2374B2B80062C1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9653D4DD2374B2B80062C1FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9653D4E02374B2B80062C1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9653D4E22374B2B80062C1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9653D4E72374B2B80062C1FF /* Dayne-Game-A2-7211Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dayne-Game-A2-7211Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653D4EB2374B2B80062C1FF /* Dayne_Game_A2_7211Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dayne_Game_A2_7211Tests.swift; sourceTree = "<group>"; };
+		9653D4ED2374B2B80062C1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9653D4F72374B31C0062C1FF /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		9653D4FB2374B3C50062C1FF /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		9653D4FD2374B3E60062C1FF /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		9653D5002374B47F0062C1FF /* GetAllRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllRepo.swift; sourceTree = "<group>"; };
+		9653D5022374B5AB0062C1FF /* GetRepoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRepoContent.swift; sourceTree = "<group>"; };
+		9653D5052374BA7D0062C1FF /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		9653D5072374BADA0062C1FF /* SmallPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPanel.swift; sourceTree = "<group>"; };
+		9653D5092374BAFE0062C1FF /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		9653D50B2374BB1F0062C1FF /* BigPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPanel.swift; sourceTree = "<group>"; };
+		9653D50D2374BB440062C1FF /* MainContentArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentArea.swift; sourceTree = "<group>"; };
+		9653D50F2374BB680062C1FF /* LessonAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonAppView.swift; sourceTree = "<group>"; };
+		9653D5112374BCD80062C1FF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9653D5132374BF140062C1FF /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9653D5152374CC920062C1FF /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9653D4CE2374B2B50062C1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653D4E42374B2B80062C1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9653D4C82374B2B50062C1FF = {
+			isa = PBXGroup;
+			children = (
+				9653D4D32374B2B50062C1FF /* Dayne-Game-A2-7211 */,
+				9653D4EA2374B2B80062C1FF /* Dayne-Game-A2-7211Tests */,
+				9653D4D22374B2B50062C1FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9653D4D22374B2B50062C1FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9653D4D12374B2B50062C1FF /* Dayne-Game-A2-7211.app */,
+				9653D4E72374B2B80062C1FF /* Dayne-Game-A2-7211Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9653D4D32374B2B50062C1FF /* Dayne-Game-A2-7211 */ = {
+			isa = PBXGroup;
+			children = (
+				9653D5042374BA650062C1FF /* Components */,
+				9653D4FF2374B44B0062C1FF /* APIs */,
+				9653D4F62374B3090062C1FF /* Models */,
+				9653D4D42374B2B50062C1FF /* AppDelegate.swift */,
+				9653D4D62374B2B50062C1FF /* SceneDelegate.swift */,
+				9653D4D82374B2B50062C1FF /* ContentView.swift */,
+				9653D4DA2374B2B80062C1FF /* Assets.xcassets */,
+				9653D4DF2374B2B80062C1FF /* LaunchScreen.storyboard */,
+				9653D4E22374B2B80062C1FF /* Info.plist */,
+				9653D4DC2374B2B80062C1FF /* Preview Content */,
+				9653D4FB2374B3C50062C1FF /* PlaygroundView.swift */,
+				9653D5112374BCD80062C1FF /* HomeView.swift */,
+				9653D5132374BF140062C1FF /* AboutView.swift */,
+				9653D5152374CC920062C1FF /* InstructionView.swift */,
+			);
+			path = "Dayne-Game-A2-7211";
+			sourceTree = "<group>";
+		};
+		9653D4DC2374B2B80062C1FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9653D4DD2374B2B80062C1FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9653D4EA2374B2B80062C1FF /* Dayne-Game-A2-7211Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9653D4EB2374B2B80062C1FF /* Dayne_Game_A2_7211Tests.swift */,
+				9653D4ED2374B2B80062C1FF /* Info.plist */,
+			);
+			path = "Dayne-Game-A2-7211Tests";
+			sourceTree = "<group>";
+		};
+		9653D4F62374B3090062C1FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9653D4F72374B31C0062C1FF /* Repo.swift */,
+				9653D4FD2374B3E60062C1FF /* Content.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9653D4FF2374B44B0062C1FF /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				9653D5002374B47F0062C1FF /* GetAllRepo.swift */,
+				9653D5022374B5AB0062C1FF /* GetRepoContent.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		9653D5042374BA650062C1FF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9653D5052374BA7D0062C1FF /* Header.swift */,
+				9653D5072374BADA0062C1FF /* SmallPanel.swift */,
+				9653D5092374BAFE0062C1FF /* ProgressCircle.swift */,
+				9653D50B2374BB1F0062C1FF /* BigPanel.swift */,
+				9653D50D2374BB440062C1FF /* MainContentArea.swift */,
+				9653D50F2374BB680062C1FF /* LessonAppView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9653D4D02374B2B50062C1FF /* Dayne-Game-A2-7211 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9653D4F02374B2B80062C1FF /* Build configuration list for PBXNativeTarget "Dayne-Game-A2-7211" */;
+			buildPhases = (
+				9653D4CD2374B2B50062C1FF /* Sources */,
+				9653D4CE2374B2B50062C1FF /* Frameworks */,
+				9653D4CF2374B2B50062C1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dayne-Game-A2-7211";
+			productName = "Dayne-Game-A2-7211";
+			productReference = 9653D4D12374B2B50062C1FF /* Dayne-Game-A2-7211.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9653D4E62374B2B80062C1FF /* Dayne-Game-A2-7211Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9653D4F32374B2B80062C1FF /* Build configuration list for PBXNativeTarget "Dayne-Game-A2-7211Tests" */;
+			buildPhases = (
+				9653D4E32374B2B80062C1FF /* Sources */,
+				9653D4E42374B2B80062C1FF /* Frameworks */,
+				9653D4E52374B2B80062C1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9653D4E92374B2B80062C1FF /* PBXTargetDependency */,
+			);
+			name = "Dayne-Game-A2-7211Tests";
+			productName = "Dayne-Game-A2-7211Tests";
+			productReference = 9653D4E72374B2B80062C1FF /* Dayne-Game-A2-7211Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9653D4C92374B2B50062C1FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Dayne Game";
+				TargetAttributes = {
+					9653D4D02374B2B50062C1FF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					9653D4E62374B2B80062C1FF = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9653D4D02374B2B50062C1FF;
+					};
+				};
+			};
+			buildConfigurationList = 9653D4CC2374B2B50062C1FF /* Build configuration list for PBXProject "Dayne-Game-A2-7211" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9653D4C82374B2B50062C1FF;
+			productRefGroup = 9653D4D22374B2B50062C1FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9653D4D02374B2B50062C1FF /* Dayne-Game-A2-7211 */,
+				9653D4E62374B2B80062C1FF /* Dayne-Game-A2-7211Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9653D4CF2374B2B50062C1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653D4E12374B2B80062C1FF /* LaunchScreen.storyboard in Resources */,
+				9653D4DE2374B2B80062C1FF /* Preview Assets.xcassets in Resources */,
+				9653D4DB2374B2B80062C1FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653D4E52374B2B80062C1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9653D4CD2374B2B50062C1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653D5142374BF140062C1FF /* AboutView.swift in Sources */,
+				9653D5032374B5AB0062C1FF /* GetRepoContent.swift in Sources */,
+				9653D5062374BA7D0062C1FF /* Header.swift in Sources */,
+				9653D4D52374B2B50062C1FF /* AppDelegate.swift in Sources */,
+				9653D5122374BCD80062C1FF /* HomeView.swift in Sources */,
+				9653D50C2374BB1F0062C1FF /* BigPanel.swift in Sources */,
+				9653D5012374B47F0062C1FF /* GetAllRepo.swift in Sources */,
+				9653D4FC2374B3C50062C1FF /* PlaygroundView.swift in Sources */,
+				9653D4D72374B2B50062C1FF /* SceneDelegate.swift in Sources */,
+				9653D4D92374B2B50062C1FF /* ContentView.swift in Sources */,
+				9653D5162374CC920062C1FF /* InstructionView.swift in Sources */,
+				9653D5102374BB680062C1FF /* LessonAppView.swift in Sources */,
+				9653D50A2374BAFE0062C1FF /* ProgressCircle.swift in Sources */,
+				9653D50E2374BB440062C1FF /* MainContentArea.swift in Sources */,
+				9653D4F82374B31C0062C1FF /* Repo.swift in Sources */,
+				9653D5082374BADA0062C1FF /* SmallPanel.swift in Sources */,
+				9653D4FE2374B3E60062C1FF /* Content.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653D4E32374B2B80062C1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653D4EC2374B2B80062C1FF /* Dayne_Game_A2_7211Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9653D4E92374B2B80062C1FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9653D4D02374B2B50062C1FF /* Dayne-Game-A2-7211 */;
+			targetProxy = 9653D4E82374B2B80062C1FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9653D4DF2374B2B80062C1FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9653D4E02374B2B80062C1FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9653D4EE2374B2B80062C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9653D4EF2374B2B80062C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9653D4F12374B2B80062C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dayne-Game-A2-7211/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dayne-Game-A2-7211/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DGTechnology.Dayne-Game-A2-7211";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9653D4F22374B2B80062C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dayne-Game-A2-7211/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dayne-Game-A2-7211/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DGTechnology.Dayne-Game-A2-7211";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9653D4F42374B2B80062C1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dayne-Game-A2-7211Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DGTechnology.Dayne-Game-A2-7211Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayne-Game-A2-7211.app/Dayne-Game-A2-7211";
+			};
+			name = Debug;
+		};
+		9653D4F52374B2B80062C1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dayne-Game-A2-7211Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DGTechnology.Dayne-Game-A2-7211Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dayne-Game-A2-7211.app/Dayne-Game-A2-7211";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9653D4CC2374B2B50062C1FF /* Build configuration list for PBXProject "Dayne-Game-A2-7211" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653D4EE2374B2B80062C1FF /* Debug */,
+				9653D4EF2374B2B80062C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9653D4F02374B2B80062C1FF /* Build configuration list for PBXNativeTarget "Dayne-Game-A2-7211" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653D4F12374B2B80062C1FF /* Debug */,
+				9653D4F22374B2B80062C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9653D4F32374B2B80062C1FF /* Build configuration list for PBXNativeTarget "Dayne-Game-A2-7211Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653D4F42374B2B80062C1FF /* Debug */,
+				9653D4F52374B2B80062C1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9653D4C92374B2B50062C1FF /* Project object */;
+}
